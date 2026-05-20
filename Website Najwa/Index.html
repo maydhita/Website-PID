@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papan Kapur ke Layar Sentuh</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f6f9;
+      color:#333;
+      line-height:1.8;
+    }
+
+    header{
+      background:linear-gradient(135deg,#0077ff,#00b4d8);
+      color:white;
+      text-align:center;
+      padding:60px 20px;
+    }
+
+    header h1{
+      font-size:42px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:18px;
+    }
+
+    nav{
+      background:#0056b3;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:yellow;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:40px auto;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      margin-bottom:30px;
+      border-radius:15px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h2{
+      color:#0077ff;
+      margin-bottom:15px;
+    }
+
+    .card img{
+      width:100%;
+      border-radius:12px;
+      margin:20px 0;
+    }
+
+    ul{
+      margin-left:20px;
+    }
+
+    footer{
+      background:#0056b3;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    .highlight{
+      color:#0077ff;
+      font-weight:bold;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      background:#0077ff;
+      color:white;
+      padding:12px 25px;
+      text-decoration:none;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#004999;
+    }
+
+    @media(max-width:768px){
+
+      header h1{
+        font-size:30px;
+      }
+
+      nav a{
+        display:block;
+        margin:10px 0;
+      }
+
+      .card{
+        padding:20px;
+      }
+
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1>Papan Kapur ke Layar Sentuh</h1>
+    <p>Transformasi Pendidikan Indonesia di Era Digital</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang PID</a>
+    <a href="#perbedaan">Perbedaan</a>
+    <a href="#tujuan">Tujuan</a>
+    <a href="#kesimpulan">Kesimpulan</a>
+  </nav>
+
+  <div class="container">
+
+    <section class="card" id="tentang">
+
+      <h2>Apa Itu PID?</h2>
+
+      <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop" alt="Pendidikan Digital">
+
+      <p>
+        Papan Interaktif Digital (PID) merupakan teknologi modern yang digunakan 
+        dalam dunia pendidikan untuk membantu proses belajar mengajar menjadi 
+        lebih menarik, interaktif, dan efektif.
+      </p>
+
+      <p>
+        Dengan adanya PID, guru dapat menjelaskan materi menggunakan video, 
+        animasi, gambar, hingga permainan edukatif sehingga siswa lebih mudah 
+        memahami pelajaran.
+      </p>
+
+      <a href="#tujuan" class="btn">Pelajari Lebih Lanjut</a>
+
+    </section>
+
+    <section class="card" id="perbedaan">
+
+      <h2>Perbedaan Sebelum dan Sesudah PID</h2>
+
+      <h3>1. Metode Penyampaian Materi</h3>
+
+      <ul>
+        <li><b>Sebelum PID:</b> Guru menggunakan papan tulis dan metode ceramah.</li>
+        <li><b>Sesudah PID:</b> Guru dapat menampilkan video, animasi, dan simulasi digital.</li>
+      </ul>
+
+      <br>
+
+      <h3>2. Keterlibatan dan Interaksi Siswa</h3>
+
+      <ul>
+        <li><b>Sebelum PID:</b> Siswa lebih pasif dan hanya mencatat.</li>
+        <li><b>Sesudah PID:</b> Siswa lebih aktif melalui kuis dan interaksi langsung di layar.</li>
+      </ul>
+
+      <br>
+
+      <h3>3. Media dan Efisiensi Waktu</h3>
+
+      <ul>
+        <li><b>Sebelum PID:</b> Guru menulis materi secara manual di papan tulis.</li>
+        <li><b>Sesudah PID:</b> Semua media pembelajaran sudah terintegrasi dalam satu perangkat digital.</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="tujuan">
+
+      <h2>Tujuan Adanya PID</h2>
+
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="Belajar Digital">
+
+      <ul>
+        <li>Menciptakan pembelajaran yang interaktif dan kolaboratif.</li>
+        <li>Membantu guru menyampaikan materi dengan lebih mudah.</li>
+        <li>Mengubah konsep abstrak menjadi visual yang konkret.</li>
+        <li>Meningkatkan kualitas pendidikan Indonesia.</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="kesimpulan">
+
+      <h2>Kesimpulan</h2>
+
+      <p>
+        Kehadiran <span class="highlight">Papan Interaktif Digital</span> membawa 
+        perubahan besar dalam dunia pendidikan Indonesia. Teknologi ini membuat 
+        proses belajar menjadi lebih menarik, modern, dan mudah dipahami.
+      </p>
+
+      <p>
+        Sebagai generasi penerus bangsa, kita harus mampu memanfaatkan teknologi 
+        digital dengan baik agar Indonesia dapat berkembang menjadi 
+        <span class="highlight">Indonesia Emas</span>.
+      </p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Website Pendidikan Digital | Dibuat dengan HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
